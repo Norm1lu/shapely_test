@@ -50,7 +50,7 @@ point4=multipoints.intersection(gc)
 # plt.plot(x2,y2,label="chushi",linestyle="--",color="blue")
 # plt.plot(x3,y3,label="chushi",linestyle="--",color="blue")
 # plt.plot(x4,y4,label="chushi",linestyle="--",color="blue")
-plt.plot(x5,y5,label="chushi",linestyle="--",color="black")
+plt.plot(x5,y5,label="moving range ",linestyle="--",color="black")
 print(len(point4.geoms))
 for i in range(len(point4.geoms)):
     mm=shape_test.point_rotate_test(point4.geoms[i].x,point4.geoms[i].y,-20)
