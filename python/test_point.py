@@ -53,7 +53,8 @@ point4=multipoints.intersection(gc)
 plt.plot(x5,y5,label="moving range ",linestyle="--",color="black")
 print(len(point4.geoms))
 for i in range(len(point4.geoms)):
-    mm=shape_test.point_rotate_test(point4.geoms[i].x,point4.geoms[i].y,-20)
+#aaaaaaaa
+ mm=shape_test.point_rotate_test(point4.geoms[i].x,point4.geoms[i].y,-20)
     if mm==0 :
         plt.plot(point4.geoms[i].x,point4.geoms[i].y,'o',color='red')
     if mm==1:
